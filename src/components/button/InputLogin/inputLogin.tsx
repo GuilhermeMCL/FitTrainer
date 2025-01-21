@@ -6,7 +6,7 @@ export function InputLogin() {
       <SearchFormContainer >
       <input
         type="text"
-        placeholder="Busque por transações"
+        placeholder="example@example.com"
       />
     </SearchFormContainer>
     )
