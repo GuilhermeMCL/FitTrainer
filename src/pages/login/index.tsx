@@ -1,10 +1,15 @@
+import { ButtonLogin } from "../../components/button/ButtonLogin";
 import { InputLogin } from "../../components/button/InputLogin/inputLogin";
+import { InputPassword } from "../../components/button/InputLogin/inputPassword";
 
 
-export function App() {
+export function LoginPage() {
   return (
-      <div>
-        
-      </div>
-  )
+    <div>
+      <InputLogin/>
+      <InputPassword/>
+      <ButtonLogin/>
+    </div>
+
+  ) 
 }

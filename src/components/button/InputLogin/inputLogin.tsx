@@ -1,13 +1,13 @@
-import {  SearchFormContainer } from "./style";
+import { InputContainer } from "./style";
 
 
 export function InputLogin() {
     return (
-      <SearchFormContainer >
+      <InputContainer >
       <input
         type="text"
         placeholder="example@example.com"
       />
-    </SearchFormContainer>
+    </InputContainer>
     )
   }
